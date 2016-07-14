@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wvobject db_ref_id="1" fp_name="/tb/diff_clock_clk_n" type="logic">
+      <obj_property name="ElementShortName">diff_clock_clk_n</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_clk_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/diff_clock_clk_p" type="logic">
+      <obj_property name="ElementShortName">diff_clock_clk_p</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_clk_p</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/vid_io_out_active_video" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_active_video</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_active_video</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/vid_io_out_data" type="array">
+      <obj_property name="ElementShortName">vid_io_out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/vid_io_out_field" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_field</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_field</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/vid_io_out_hblank" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_hblank</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_hblank</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/vid_io_out_hsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_hsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/vid_io_out_vblank" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_vblank</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_vblank</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/vid_io_out_vsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_vsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/clk_wiz_1/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tc_0/hsync_out" type="logic">
+      <obj_property name="ElementShortName">hsync_out</obj_property>
+      <obj_property name="ObjectShortName">hsync_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tc_0/vsync_out" type="logic">
+      <obj_property name="ElementShortName">vsync_out</obj_property>
+      <obj_property name="ObjectShortName">vsync_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tc_0/active_video_out" type="logic">
+      <obj_property name="ElementShortName">active_video_out</obj_property>
+      <obj_property name="ObjectShortName">active_video_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tpg_0/m_axis_video_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_video_tdata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tdata[15:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tpg_0/m_axis_video_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_video_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tpg_0/m_axis_video_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_video_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tpg_0/m_axis_video_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_video_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_tpg_0/m_axis_video_tuser" type="logic">
+      <obj_property name="ElementShortName">m_axis_video_tuser</obj_property>
+      <obj_property name="ObjectShortName">m_axis_video_tuser</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/rst_clk_wiz_1_100M/peripheral_reset" type="array">
+      <obj_property name="ElementShortName">peripheral_reset[0:0]</obj_property>
+      <obj_property name="ObjectShortName">peripheral_reset[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/rst_clk_wiz_1_100M/peripheral_aresetn" type="array">
+      <obj_property name="ElementShortName">peripheral_aresetn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">peripheral_aresetn[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_axi4s_vid_out_0/inst/vtg_ce" type="logic">
+      <obj_property name="ElementShortName">vtg_ce</obj_property>
+      <obj_property name="ObjectShortName">vtg_ce</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_axi4s_vid_out_0/inst/wr_error" type="logic">
+      <obj_property name="ElementShortName">wr_error</obj_property>
+      <obj_property name="ObjectShortName">wr_error</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_axi4s_vid_out_0/inst/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb/design_1_wrapper_inst/design_1_i/v_axi4s_vid_out_0/inst/s_axis_video_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_video_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_video_tready</obj_property>
+   </wvobject>
+</wave_config>

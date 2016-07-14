@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri May 20 19:52:05 2016
+# Process ID: 8098
+# Log file: /home/ilim/Documents/Headlight/enrec_testing/webtalk.log
+# Journal file: /home/ilim/Documents/Headlight/enrec_testing/webtalk.jou
+#-----------------------------------------------------------
+source /home/ilim/Documents/Headlight/enrec_testing/a.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3334325352 -regid "174679548_176449548_210570730_342" -xml /home/ilim/Documents/Headlight/enrec_testing/a.hw/webtalk/usage_..."
+    (file "/home/ilim/Documents/Headlight/enrec_testing/a.hw/webtalk/labtool_webtalk.tcl" line 35)
+INFO: [Common 17-206] Exiting Webtalk at Fri May 20 19:52:08 2016...

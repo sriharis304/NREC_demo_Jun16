@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Xilinx/a/a.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="26" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/out_hsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/out_hsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/out_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/tvalid" type="logic">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/tvalid</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/in_data" type="array">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/in_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/in_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/inst/doLookUpInst/flag_dummy_data" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/inst/doLookUpInst/flag_dummy_data[0:7]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/inst/doLookUpInst/flag_dummy_data[0:7]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/in_den" type="logic">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/in_den</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/in_den</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/in_hsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/in_hsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/in_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/in_vsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/in_vsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/in_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/out_data" type="array">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/out_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/in_data" type="array">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/in_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/in_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/out_den" type="logic">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/out_den</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/out_den</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/inst/doLookUpInst/is_valid_reg" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/inst/doLookUpInst/is_valid_reg[0:7]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/inst/doLookUpInst/is_valid_reg[0:7]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/inst/doLookUpInst/last_valid_x" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/inst/doLookUpInst/last_valid_x[9:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/inst/doLookUpInst/last_valid_x[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/data_to_dmd" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/data_to_dmd[7:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/data_to_dmd[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/out_hsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/out_hsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/out_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/out_tvalid" type="logic">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/out_tvalid</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/out_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/out_vsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/out_vsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/out_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/dout_image_in_b" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/dout_image_in_b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/dout_image_in_b[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/inst/doLookUpInst/addr_lut_a" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/inst/doLookUpInst/addr_lut_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/inst/doLookUpInst/addr_lut_a[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/inst/doLookUpInst/count_data" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/inst/doLookUpInst/count_data[6:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/inst/doLookUpInst/count_data[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/bus_doubler_0/out_vsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/bus_doubler_0/out_vsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/bus_doubler_0/out_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/in_hsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/in_hsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/in_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/in_tvalid" type="logic">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/in_tvalid</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/in_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/in_vsync" type="logic">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/in_vsync</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/in_vsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/line_buf_0/out_data" type="array">
+      <obj_property name="ElementShortName">design_1_i/line_buf_0/out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/line_buf_0/out_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/inst/doLookUpInst/addr_lut_offsets" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/inst/doLookUpInst/addr_lut_offsets[8:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/inst/doLookUpInst/addr_lut_offsets[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="design_1_i/homography_latest_0/inst/doLookUpInst/din_image_out_a_temp" type="array">
+      <obj_property name="ElementShortName">design_1_i/homography_latest_0/inst/doLookUpInst/din_image_out_a_temp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">design_1_i/homography_latest_0/inst/doLookUpInst/din_image_out_a_temp[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

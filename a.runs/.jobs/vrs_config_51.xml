@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth__7035" LaunchDir="/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/synth__7035" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_3" LaunchDir="/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/impl_3" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth__7035"/>
+	</Run>
+</Runs>
+

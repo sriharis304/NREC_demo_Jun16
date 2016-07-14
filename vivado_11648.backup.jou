@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Tue Jan 19 17:55:14 2016
+# Process ID: 2876
+# Log file: C:/Xilinx/a/vivado.log
+# Journal file: C:/Xilinx/a\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Xilinx/a/a.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="ILA">
+        <Dashboard columnResizable="1" key="ILA" rowResizable="0" title="ILA">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="2" height="659"
+                layout="JideBoxLayout" vgap="6" width="644">
+                <Gadget height="105" key="Trigger Capture Status" width="644"/>
+                <Gadget height="456" key="Basic Trigger Setup" width="644">
+                    <Probe name="design_1_i/homography_latest_0/data_to_dmd[7:0]"/>
+                    <Probe name="design_1_i/homography_latest_0/inst/doLookUpInst/addr_lut_offsets[8:0]"/>
+                    <Probe name="design_1_i/homography_latest_0/inst/doLookUpInst/count_data[6:0]"/>
+                    <Probe name="design_1_i/homography_latest_0/inst/doLookUpInst/is_valid_reg[0:7]"/>
+                    <Probe name="design_1_i/bus_doubler_0/out_den"/>
+                    <Probe name="design_1_i/bus_doubler_0/out_data[15:0]"/>
+                    <Probe name="design_1_i/homography_latest_0/tvalid"/>
+                    <Probe name="design_1_i/line_buf_0/out_data[15:0]"/>
+                    <Probe name="design_1_i/line_buf_0/out_tvalid"/>
+                    <Probe name="design_1_i/bus_doubler_0/in_data[7:0]"/>
+                    <Probe name="design_1_i/bus_doubler_0/in_den"/>
+                    <Probe name="design_1_i/bus_doubler_0/out_hsync"/>
+                    <Probe name="design_1_i/line_buf_0/out_hsync"/>
+                </Gadget>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>

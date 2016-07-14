@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4
+# SW Build 1071353 on Tue Nov 18 18:06:20 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Sun Dec 13 16:52:27 2015
+# Process ID: 9316
+# Log file: c:/Xilinx/Projects/zynq_mask_test/marie_test_dmd_mask_elliot_and_darrin/webtalk.log
+# Journal file: c:/Xilinx/Projects/zynq_mask_test/marie_test_dmd_mask_elliot_and_darrin\webtalk.jou
+#-----------------------------------------------------------
+source C:/Xilinx/Projects/zynq_mask_test/marie_test_dmd_mask_elliot_and_darrin/DMD_Test.hw/webtalk/labtool_webtalk.tcl -notrace

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# 
+# Start of session at: Tue Jun 14 17:26:34 2016
+# Process ID: 20799
+# Log file: /home/ilim/arm_core_load_single_channle/a.sdk/webtalk/webtalk.log
+# Journal file: /home/ilim/arm_core_load_single_channle/a.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

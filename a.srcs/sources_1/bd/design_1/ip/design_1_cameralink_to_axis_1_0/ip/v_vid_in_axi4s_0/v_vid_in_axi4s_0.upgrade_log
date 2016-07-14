@@ -1,0 +1,27 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 15 16:32:41 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'v_vid_in_axi4s_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of v_vid_in_axi4s_0 (xilinx.com:ip:v_vid_in_axi4s:3.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'v_vid_in_axi4s_0'. These changes may impact your design.
+
+
+-upgraded port 'm_axis_video_tdata' width 80 differs from original width 24
+-upgraded port 'vid_data' width 80 differs from original width 24
+

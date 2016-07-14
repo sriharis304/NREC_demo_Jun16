@@ -1,0 +1,30 @@
+
+*** Running vivado
+    with args -log address_gen_param.vds -m64 -mode batch -messageDb vivado.pb -notrace -source address_gen_param.tcl
+
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source address_gen_param.tcl -notrace
+Command: synth_design -top address_gen_param -part xc7z030fbg676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z030'
+ERROR: [Synth 8-2369] multiple packed dimensions are not allowed in this mode of verilog [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:43]
+ERROR: [Synth 8-1002] line_pos_counter is not a constant [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:130]
+ERROR: [Synth 8-1002] BLANKING_WIDTH is not a constant [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:130]
+ERROR: [Synth 8-1002] BLANKING_POSITION is not a constant [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:130]
+ERROR: [Synth 8-1002] line_pos_counter is not a constant [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:130]
+ERROR: [Synth 8-1002] BLANKING_WIDTH is not a constant [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:130]
+ERROR: [Synth 8-1002] BLANKING_POSITION is not a constant [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:130]
+ERROR: [Synth 8-1002] BLANKING_WIDTH is not a constant [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:135]
+INFO: [Synth 8-2350] module address_gen_param ignored due to previous errors [/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v:22]
+Failed to read verilog '/home/ilim/arm_core_load_single_with_bike/repo/Addr_gen_blackout/sources_1/new/adress_gen.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 9 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 15 12:55:47 2016...

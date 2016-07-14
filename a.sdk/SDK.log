@@ -1,0 +1,94 @@
+17:10:41 INFO  : Processing command line option -hwspec /home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper.hdf.
+17:10:43 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:10:45 INFO  : XSDB server has started successfully.
+17:19:01 INFO  : System reset is completed.
+17:19:05 INFO  : FPGA configured successfully with bitstream "/home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:19:06 INFO  : ps7_init is completed.
+17:19:06 INFO  : ps7_post_config is completed.
+17:24:47 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:24:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:24:56 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:670)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:609)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:26:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:26:51 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:26:52 INFO  : XSDB server has started successfully.
+17:26:54 INFO  : Processing command line option -hwspec /home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper.hdf.
+17:26:56 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:27:10 INFO  : ps7_init is completed.
+17:27:10 INFO  : ps7_post_config is completed.
+17:27:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:29:10 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:30:31 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:30:32 INFO  : XSDB server has started successfully.
+17:30:33 INFO  : Processing command line option -hwspec /home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper.hdf.
+17:30:36 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:30:54 INFO  : System reset is completed.
+17:30:57 INFO  : FPGA configured successfully with bitstream "/home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:30:58 INFO  : ps7_init is completed.
+17:30:58 INFO  : ps7_post_config is completed.
+17:31:39 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:33:49 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:33:50 INFO  : XSDB server has started successfully.
+17:33:51 INFO  : Processing command line option -hwspec /home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper.hdf.
+17:33:53 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:34:05 INFO  : System reset is completed.
+17:34:09 INFO  : FPGA configured successfully with bitstream "/home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:34:10 INFO  : ps7_init is completed.
+17:34:10 INFO  : ps7_post_config is completed.
+17:34:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:34:24 INFO  : System reset is completed.
+17:34:28 INFO  : FPGA configured successfully with bitstream "/home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:34:28 INFO  : ps7_init is completed.
+17:34:28 INFO  : ps7_post_config is completed.
+17:34:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:34:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:35:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:35:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:35:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:36:05 INFO  : Launching XSDB server: xsdb -n -s /opt/Xilinx/SDK/2015.2/scripts/xsdb/xsdb/xsdb-server.tcl
+17:36:07 INFO  : XSDB server has started successfully.
+17:36:08 INFO  : Processing command line option -hwspec /home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper.hdf.
+17:36:10 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+17:36:33 INFO  : ps7_init is completed.
+17:36:33 INFO  : ps7_post_config is completed.
+17:36:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:36:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:36:54 INFO  : System reset is completed.
+17:37:08 INFO  : FPGA configured successfully with bitstream "/home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:37:14 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: 
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.connectToProcessor(TM.java:481)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:461)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:588)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:296)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:37:28 INFO  : System reset is completed.
+17:37:34 INFO  : FPGA configured successfully with bitstream "/home/ilim/arm_core_load_single_channle/a.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+17:37:35 INFO  : ps7_init is completed.
+17:37:35 INFO  : ps7_post_config is completed.
+17:38:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:38:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:06:56 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

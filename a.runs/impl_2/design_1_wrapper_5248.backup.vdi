@@ -1,0 +1,660 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Apr 20 20:14:20 2016
+# Process ID: 2455
+# Log file: /home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/impl_2/design_1_wrapper.vdi
+# Journal file: /home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 534 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7z030fbg676-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_board.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0_board.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/design_1_rst_clk_wiz_1_100M_0.xdc] for cell 'design_1_i/rst_clk_wiz_1_100M'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0.xdc] for cell 'design_1_i/fifo_generator_0/U0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0.xdc] for cell 'design_1_i/fifo_generator_0/U0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:56]
+INFO: [Timing 38-2] Deriving generated clocks [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:56]
+get_clocks: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1806.906 ; gain = 498.562 ; free physical = 2179 ; free virtual = 11252
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc] for cell 'design_1_i/proc_sys_reset_1'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc] for cell 'design_1_i/proc_sys_reset_1'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc] for cell 'design_1_i/proc_sys_reset_1'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc] for cell 'design_1_i/proc_sys_reset_1'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_board.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0.xdc] for cell 'design_1_i/axi_gpio_0/U0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_1/U0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_board.xdc] for cell 'design_1_i/axi_gpio_1/U0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc] for cell 'design_1_i/axi_gpio_1/U0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0.xdc] for cell 'design_1_i/axi_gpio_1/U0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/constrs_1/imports/new/Cameralink_deca.xdc]
+INFO: [Timing 38-2] Deriving generated clocks [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/constrs_1/imports/new/Cameralink_deca.xdc:31]
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/constrs_1/imports/new/Cameralink_deca.xdc]
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0_clocks.xdc] for cell 'design_1_i/fifo_generator_0/U0'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0/design_1_fifo_generator_0_0_clocks.xdc] for cell 'design_1_i/fifo_generator_0/U0'
+Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_cameralink_to_axis_1_0/ip/v_vid_in_axi4s_0/v_vid_in_axi4s_0_clocks.xdc] for cell 'design_1_i/cameralink_to_axis_1/inst/v_vid_in_axi4s_0_inst/inst'
+Finished Parsing XDC File [/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.srcs/sources_1/bd/design_1/ip/design_1_cameralink_to_axis_1_0/ip/v_vid_in_axi4s_0/v_vid_in_axi4s_0_clocks.xdc] for cell 'design_1_i/cameralink_to_axis_1/inst/v_vid_in_axi4s_0_inst/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'design_1_wrapper'...
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 45 instances were transformed.
+  IBUFDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 12 instances
+  IBUFGDS_DIFF_OUT => IBUFDS_DIFF_OUT (IBUFDS, IBUFDS): 1 instances
+  OBUFDS => OBUFDS: 20 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 12 instances
+
+link_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:35 . Memory (MB): peak = 1868.980 ; gain = 935.730 ; free physical = 2121 ; free virtual = 11187
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.45 ; elapsed = 00:00:00.45 . Memory (MB): peak = 1879.992 ; gain = 3.012 ; free physical = 2120 ; free virtual = 11187
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.cache/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.2/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:1.1 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:1.1", from Vivado IP cache entry "4b2afe1b974bf232".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:5.1 for cell u_ila_0_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:5.1", from Vivado IP cache entry "b8f3e8eadbcee14b".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:5.1 for cell u_ila_1_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:5.1", from Vivado IP cache entry "4c88ffb189b2a5c6".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:5.1 for cell u_ila_2_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:ila:5.1", from Vivado IP cache entry "819517c399d9434f".
+Netlist sorting complete. Time (s): cpu = 00:00:00.25 ; elapsed = 00:00:00.26 . Memory (MB): peak = 1906.469 ; gain = 0.000 ; free physical = 1926 ; free virtual = 11093
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 208155264
+
+Time (s): cpu = 00:02:32 ; elapsed = 00:02:32 . Memory (MB): peak = 1906.469 ; gain = 26.477 ; free physical = 1926 ; free virtual = 11093
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 14 load pin(s).
+INFO: [Opt 31-194] Inserted BUFG pixel_clk_out_BUFG_inst to drive 822 load(s) on clock net pixel_clk_out
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 1d99b5288
+
+Time (s): cpu = 00:02:46 ; elapsed = 00:02:42 . Memory (MB): peak = 2019.469 ; gain = 139.477 ; free physical = 1845 ; free virtual = 11012
+
+Phase 3 Constant Propagation
+INFO: [Opt 31-138] Pushed 17 inverter(s) to 35 load pin(s).
+INFO: [Opt 31-10] Eliminated 2709 cells.
+Phase 3 Constant Propagation | Checksum: 1528d89f4
+
+Time (s): cpu = 00:02:56 ; elapsed = 00:02:52 . Memory (MB): peak = 2019.469 ; gain = 139.477 ; free physical = 1834 ; free virtual = 11002
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 8926 unconnected nets.
+INFO: [Opt 31-11] Eliminated 2752 unconnected cells.
+Phase 4 Sweep | Checksum: 221c78e98
+
+Time (s): cpu = 00:03:01 ; elapsed = 00:02:57 . Memory (MB): peak = 2019.469 ; gain = 139.477 ; free physical = 1834 ; free virtual = 11002
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.19 . Memory (MB): peak = 2019.469 ; gain = 0.000 ; free physical = 1834 ; free virtual = 11002
+Ending Logic Optimization Task | Checksum: 221c78e98
+
+Time (s): cpu = 00:03:01 ; elapsed = 00:02:57 . Memory (MB): peak = 2019.469 ; gain = 139.477 ; free physical = 1834 ; free virtual = 11002
+Implement Debug Cores | Checksum: 1b5a8bb3a
+Logic Optimization | Checksum: 210f34dbe
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 3.12 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 3 BRAM(s) out of a total of 79 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 9 newly gated: 0 Total Ports: 158
+Number of Flops added for Enable Generation: 3
+
+Ending PowerOpt Patch Enables Task | Checksum: 139482152
+
+Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2230.422 ; gain = 0.000 ; free physical = 1613 ; free virtual = 10785
+Ending Power Optimization Task | Checksum: 139482152
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2230.422 ; gain = 210.953 ; free physical = 1613 ; free virtual = 10785
+INFO: [Common 17-83] Releasing license: Implementation
+51 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:03:16 ; elapsed = 00:03:11 . Memory (MB): peak = 2230.422 ; gain = 361.441 ; free physical = 1613 ; free virtual = 10785
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2262.438 ; gain = 0.000 ; free physical = 1611 ; free virtual = 10785
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:11 . Memory (MB): peak = 2262.441 ; gain = 32.020 ; free physical = 1597 ; free virtual = 10782
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/impl_2/design_1_wrapper_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 2262.441 ; gain = 0.000 ; free physical = 1589 ; free virtual = 10778
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRARDADDR[5] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRB[0]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRARDADDR[6] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRB[1]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRARDADDR[7] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRB[2]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRARDADDR[8] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRB[3]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRBWRADDR[5] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRA[0]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRBWRADDR[6] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRA[1]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRBWRADDR[7] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRA[2]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/ADDRBWRADDR[8] (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/ADDRA[3]) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gic0.gc0.count_d2_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/RSTRAMARSTRAM (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/SSRB) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram has an input control pin design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.SDP.WIDE_PRIM18.ram/RSTRAMB (net: design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.mem/gbm.gbmg.gbmga.ngecc.bmg/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/SSRB) which is driven by a register (design_1_i/fifo_generator_0/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 10 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: b8bf10f0
+
+Time (s): cpu = 00:00:00.67 ; elapsed = 00:00:00.67 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1589 ; free virtual = 10780
+
+Phase 2 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1589 ; free virtual = 10780
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1588 ; free virtual = 10779
+
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.1 Pre-Place Cells
+Phase 2.1.1 Pre-Place Cells | Checksum: ae66497b
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1588 ; free virtual = 10779
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.2 IO & Clk Clean Up
+Phase 2.1.2 IO & Clk Clean Up | Checksum: ae66497b
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1584 ; free virtual = 10779
+
+Phase 2.1.3 Implementation Feasibility check On IDelay
+Phase 2.1.3 Implementation Feasibility check On IDelay | Checksum: ae66497b
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1584 ; free virtual = 10779
+
+Phase 2.1.4 Commit IO Placement
+Phase 2.1.4 Commit IO Placement | Checksum: 4f242a06
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1584 ; free virtual = 10779
+Phase 2.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: af5490f6
+
+Time (s): cpu = 00:00:29 ; elapsed = 00:00:21 . Memory (MB): peak = 2262.445 ; gain = 0.000 ; free physical = 1584 ; free virtual = 10779
+
+Phase 2.2 Build Placer Netlist Model
+
+Phase 2.2.1 Place Init Design
+
+Phase 2.2.1.1 Init Lut Pin Assignment
+Phase 2.2.1.1 Init Lut Pin Assignment | Checksum: b068e8c3
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:25 . Memory (MB): peak = 2294.234 ; gain = 31.789 ; free physical = 1538 ; free virtual = 10735
+Phase 2.2.1 Place Init Design | Checksum: 109642b26
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:41 . Memory (MB): peak = 2460.727 ; gain = 198.281 ; free physical = 1370 ; free virtual = 10568
+Phase 2.2 Build Placer Netlist Model | Checksum: 109642b26
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:41 . Memory (MB): peak = 2460.727 ; gain = 198.281 ; free physical = 1370 ; free virtual = 10568
+
+Phase 2.3 Constrain Clocks/Macros
+
+Phase 2.3.1 Constrain Global/Regional Clocks
+Phase 2.3.1 Constrain Global/Regional Clocks | Checksum: 109642b26
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:41 . Memory (MB): peak = 2460.727 ; gain = 198.281 ; free physical = 1369 ; free virtual = 10567
+Phase 2.3 Constrain Clocks/Macros | Checksum: 109642b26
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:42 . Memory (MB): peak = 2460.727 ; gain = 198.281 ; free physical = 1369 ; free virtual = 10567
+Phase 2 Placer Initialization | Checksum: 109642b26
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:00:42 . Memory (MB): peak = 2460.727 ; gain = 198.281 ; free physical = 1369 ; free virtual = 10567
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: d00a323a
+
+Time (s): cpu = 00:04:39 ; elapsed = 00:02:27 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1278 ; free virtual = 10479
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: d00a323a
+
+Time (s): cpu = 00:04:40 ; elapsed = 00:02:27 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1278 ; free virtual = 10479
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 71d06713
+
+Time (s): cpu = 00:05:39 ; elapsed = 00:02:50 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1241 ; free virtual = 10442
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 1206557be
+
+Time (s): cpu = 00:05:42 ; elapsed = 00:02:51 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1240 ; free virtual = 10441
+
+Phase 4.4 updateClock Trees: DP
+Phase 4.4 updateClock Trees: DP | Checksum: 1206557be
+
+Time (s): cpu = 00:05:42 ; elapsed = 00:02:51 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1240 ; free virtual = 10441
+
+Phase 4.5 Timing Path Optimizer
+Phase 4.5 Timing Path Optimizer | Checksum: 13a381716
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:02:58 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1277 ; free virtual = 10479
+
+Phase 4.6 Small Shape Detail Placement
+
+Phase 4.6.1 Commit Small Macros & Core Logic
+
+Phase 4.6.1.1 setBudgets
+Phase 4.6.1.1 setBudgets | Checksum: d061ed7c
+
+Time (s): cpu = 00:06:04 ; elapsed = 00:02:59 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1277 ; free virtual = 10479
+
+Phase 4.6.1.2 Commit Slice Clusters
+Phase 4.6.1.2 Commit Slice Clusters | Checksum: c6a6ec8a
+
+Time (s): cpu = 00:06:41 ; elapsed = 00:03:21 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1276 ; free virtual = 10478
+Phase 4.6.1 Commit Small Macros & Core Logic | Checksum: c6a6ec8a
+
+Time (s): cpu = 00:06:41 ; elapsed = 00:03:21 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1276 ; free virtual = 10478
+
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns
+Phase 4.6.2 Clock Restriction Legalization for Leaf Columns | Checksum: c6a6ec8a
+
+Time (s): cpu = 00:06:43 ; elapsed = 00:03:22 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1276 ; free virtual = 10478
+
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 4.6.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: c6a6ec8a
+
+Time (s): cpu = 00:06:43 ; elapsed = 00:03:22 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1276 ; free virtual = 10478
+Phase 4.6 Small Shape Detail Placement | Checksum: c6a6ec8a
+
+Time (s): cpu = 00:06:43 ; elapsed = 00:03:23 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1276 ; free virtual = 10478
+
+Phase 4.7 Re-assign LUT pins
+Phase 4.7 Re-assign LUT pins | Checksum: c6a6ec8a
+
+Time (s): cpu = 00:06:46 ; elapsed = 00:03:25 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10478
+Phase 4 Detail Placement | Checksum: c6a6ec8a
+
+Time (s): cpu = 00:06:46 ; elapsed = 00:03:26 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10478
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 1dc61b0c9
+
+Time (s): cpu = 00:06:48 ; elapsed = 00:03:27 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+
+Phase 6 Post Commit Optimization
+
+Phase 6.1 updateClock Trees: PCOPT
+Phase 6.1 updateClock Trees: PCOPT | Checksum: 1dc61b0c9
+
+Time (s): cpu = 00:06:48 ; elapsed = 00:03:27 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+
+Phase 6.2 Post Placement Optimization
+
+Phase 6.2.1 Post Placement Timing Optimization
+
+Phase 6.2.1.1 Restore Best Placement
+Phase 6.2.1.1 Restore Best Placement | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:52 ; elapsed = 00:04:03 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-5.652. For the most accurate timing information please run report_timing.
+Phase 6.2.1 Post Placement Timing Optimization | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:52 ; elapsed = 00:04:03 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+Phase 6.2 Post Placement Optimization | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:53 ; elapsed = 00:04:04 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+Phase 6 Post Commit Optimization | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:53 ; elapsed = 00:04:04 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+
+Phase 5.2 Sweep Clock Roots: Post-Placement
+Phase 5.2 Sweep Clock Roots: Post-Placement | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:53 ; elapsed = 00:04:04 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+
+Phase 5.3 Post Placement Cleanup
+Phase 5.3 Post Placement Cleanup | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:53 ; elapsed = 00:04:04 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+
+Phase 5.4 Placer Reporting
+
+Phase 5.4.1 Restore STA
+Phase 5.4.1 Restore STA | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:53 ; elapsed = 00:04:04 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1274 ; free virtual = 10477
+Phase 5.4 Placer Reporting | Checksum: 1d2d239d4
+
+Time (s): cpu = 00:07:53 ; elapsed = 00:04:04 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1274 ; free virtual = 10477
+
+Phase 5.5 Final Placement Cleanup
+Phase 5.5 Final Placement Cleanup | Checksum: 153ac1552
+
+Time (s): cpu = 00:07:54 ; elapsed = 00:04:05 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1274 ; free virtual = 10477
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 153ac1552
+
+Time (s): cpu = 00:07:54 ; elapsed = 00:04:05 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1274 ; free virtual = 10477
+Ending Placer Task | Checksum: 5a8996e6
+
+Time (s): cpu = 00:07:54 ; elapsed = 00:04:05 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+INFO: [Common 17-83] Releasing license: Implementation
+65 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:08:02 ; elapsed = 00:04:09 . Memory (MB): peak = 2565.523 ; gain = 303.078 ; free physical = 1275 ; free virtual = 10477
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:21 ; elapsed = 00:00:07 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1198 ; free virtual = 10477
+write_checkpoint: Time (s): cpu = 00:00:27 ; elapsed = 00:00:13 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1254 ; free virtual = 10476
+report_io: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.26 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1255 ; free virtual = 10477
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1260 ; free virtual = 10482
+report_control_sets: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.26 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1260 ; free virtual = 10483
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z030'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z030'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 12e791772
+
+Time (s): cpu = 00:00:53 ; elapsed = 00:00:33 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1257 ; free virtual = 10483
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 12e791772
+
+Time (s): cpu = 00:00:54 ; elapsed = 00:00:34 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1256 ; free virtual = 10482
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 12e791772
+
+Time (s): cpu = 00:00:55 ; elapsed = 00:00:35 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1255 ; free virtual = 10482
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 11f5ebba4
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:00 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1250 ; free virtual = 10479
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.456 | TNS=-772.960| WHS=-0.352 | THS=-692.112|
+
+Phase 2 Router Initialization | Checksum: 1e9190149
+
+Time (s): cpu = 00:02:29 ; elapsed = 00:01:09 . Memory (MB): peak = 2565.523 ; gain = 0.000 ; free physical = 1250 ; free virtual = 10478
+
+Phase 3 Initial Routing
+
+Phase 3.1 Update Timing
+Phase 3.1 Update Timing | Checksum: 19bcb1eb6
+
+Time (s): cpu = 00:05:32 ; elapsed = 00:02:09 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 969 ; free virtual = 10197
+Phase 3 Initial Routing | Checksum: aa6a0c4f
+
+Time (s): cpu = 00:08:00 ; elapsed = 00:02:58 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 967 ; free virtual = 10196
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 34266
+ Number of Nodes with overlaps = 4610
+ Number of Nodes with overlaps = 720
+ Number of Nodes with overlaps = 160
+ Number of Nodes with overlaps = 42
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1eaa48283
+
+Time (s): cpu = 00:21:19 ; elapsed = 00:08:28 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1078 ; free virtual = 10286
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-6.313 | TNS=-870.532| WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Fast Budgeting
+Phase 4.1.2.1 Fast Budgeting | Checksum: 1d8981049
+
+Time (s): cpu = 00:21:35 ; elapsed = 00:08:43 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1040 ; free virtual = 10247
+Phase 4.1.2 GlobIterForTiming | Checksum: 20b692b59
+
+Time (s): cpu = 00:21:39 ; elapsed = 00:08:47 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1079 ; free virtual = 10286
+Phase 4.1 Global Iteration 0 | Checksum: 20b692b59
+
+Time (s): cpu = 00:21:39 ; elapsed = 00:08:47 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1079 ; free virtual = 10286
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 221
+ Number of Nodes with overlaps = 32
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: ef3a35bd
+
+Time (s): cpu = 00:22:05 ; elapsed = 00:09:00 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1078 ; free virtual = 10285
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-6.084 | TNS=-845.031| WHS=N/A    | THS=N/A    |
+
+
+Phase 4.2.2 GlobIterForTiming
+
+Phase 4.2.2.1 Fast Budgeting
+Phase 4.2.2.1 Fast Budgeting | Checksum: 10315cfbd
+
+Time (s): cpu = 00:22:10 ; elapsed = 00:09:04 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1077 ; free virtual = 10284
+Phase 4.2.2 GlobIterForTiming | Checksum: 185ef5a2a
+
+Time (s): cpu = 00:22:11 ; elapsed = 00:09:05 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10288
+Phase 4.2 Global Iteration 1 | Checksum: 185ef5a2a
+
+Time (s): cpu = 00:22:11 ; elapsed = 00:09:05 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10288
+
+Phase 4.3 Global Iteration 2
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 0
+
+Phase 4.3.1 Update Timing
+Phase 4.3.1 Update Timing | Checksum: 1c251ccc0
+
+Time (s): cpu = 00:22:14 ; elapsed = 00:09:07 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1080 ; free virtual = 10288
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.989 | TNS=-840.567| WHS=N/A    | THS=N/A    |
+
+
+Phase 4.3.2 GlobIterForTiming
+
+Phase 4.3.2.1 Fast Budgeting
+Phase 4.3.2.1 Fast Budgeting | Checksum: 1c878f696
+
+Time (s): cpu = 00:22:18 ; elapsed = 00:09:11 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1084 ; free virtual = 10291
+Phase 4.3.2 GlobIterForTiming | Checksum: 16b022605
+
+Time (s): cpu = 00:22:19 ; elapsed = 00:09:12 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1083 ; free virtual = 10291
+Phase 4.3 Global Iteration 2 | Checksum: 16b022605
+
+Time (s): cpu = 00:22:19 ; elapsed = 00:09:12 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1083 ; free virtual = 10291
+
+Phase 4.4 Global Iteration 3
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.4.1 Update Timing
+Phase 4.4.1 Update Timing | Checksum: 20136b4a2
+
+Time (s): cpu = 00:22:22 ; elapsed = 00:09:15 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-6.062 | TNS=-841.825| WHS=N/A    | THS=N/A    |
+
+Phase 4.4 Global Iteration 3 | Checksum: 195da9069
+
+Time (s): cpu = 00:22:22 ; elapsed = 00:09:15 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+Phase 4 Rip-up And Reroute | Checksum: 195da9069
+
+Time (s): cpu = 00:22:23 ; elapsed = 00:09:15 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1f35e534c
+
+Time (s): cpu = 00:22:31 ; elapsed = 00:09:18 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.989 | TNS=-840.488| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 135168c95
+
+Time (s): cpu = 00:22:35 ; elapsed = 00:09:20 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 135168c95
+
+Time (s): cpu = 00:22:35 ; elapsed = 00:09:20 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+Phase 5 Delay and Skew Optimization | Checksum: 135168c95
+
+Time (s): cpu = 00:22:36 ; elapsed = 00:09:20 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: cf0ff51c
+
+Time (s): cpu = 00:22:49 ; elapsed = 00:09:25 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10289
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.989 | TNS=-839.404| WHS=0.032  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 141b39ff0
+
+Time (s): cpu = 00:22:49 ; elapsed = 00:09:25 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10289
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 32.9997 %
+  Global Horizontal Routing Utilization  = 36.4303 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 16x16 Area, Max Cong = 86.4372%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X16Y40 -> INT_R_X31Y55
+South Dir 16x16 Area, Max Cong = 87.9927%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X16Y24 -> INT_R_X31Y39
+East Dir 16x16 Area, Max Cong = 86.6958%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X16Y40 -> INT_R_X31Y55
+   INT_L_X16Y24 -> INT_R_X31Y39
+West Dir 16x16 Area, Max Cong = 91.4062%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X32Y56 -> INT_R_X47Y71
+   INT_L_X16Y40 -> INT_R_X31Y55
+   INT_L_X32Y40 -> INT_R_X47Y55
+   INT_L_X16Y24 -> INT_R_X31Y39
+   INT_L_X32Y24 -> INT_R_X47Y39
+Phase 7 Route finalize | Checksum: 6a4a5241
+
+Time (s): cpu = 00:22:50 ; elapsed = 00:09:25 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 6a4a5241
+
+Time (s): cpu = 00:22:51 ; elapsed = 00:09:26 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1082 ; free virtual = 10290
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 15a7e1770
+
+Time (s): cpu = 00:22:56 ; elapsed = 00:09:31 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10289
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.989 | TNS=-839.404| WHS=0.032  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 15a7e1770
+
+Time (s): cpu = 00:22:56 ; elapsed = 00:09:31 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10289
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:22:56 ; elapsed = 00:09:31 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10289
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+80 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:23:05 ; elapsed = 00:09:36 . Memory (MB): peak = 2814.508 ; gain = 248.984 ; free physical = 1081 ; free virtual = 10289
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:24 ; elapsed = 00:00:08 . Memory (MB): peak = 2830.516 ; gain = 0.000 ; free physical = 935 ; free virtual = 10246
+write_checkpoint: Time (s): cpu = 00:00:29 ; elapsed = 00:00:14 . Memory (MB): peak = 2830.520 ; gain = 16.012 ; free physical = 1012 ; free virtual = 10247
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/impl_2/design_1_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:28 ; elapsed = 00:00:13 . Memory (MB): peak = 2830.520 ; gain = 0.000 ; free physical = 1051 ; free virtual = 10287
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary: Time (s): cpu = 00:00:56 ; elapsed = 00:00:19 . Memory (MB): peak = 2830.520 ; gain = 0.000 ; free physical = 1048 ; free virtual = 10286
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:30 ; elapsed = 00:00:13 . Memory (MB): peak = 2830.520 ; gain = 0.000 ; free physical = 1041 ; free virtual = 10280
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 20 20:33:31 2016...

@@ -1,0 +1,79 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 12 03:28:50 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bus_doubler_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_bus_doubler_0_0 (Srihari:user:bus_doubler:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 12 03:14:49 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z035fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bus_doubler_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_bus_doubler_0_0 (Srihari:user:bus_doubler:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu Apr 14 16:56:16 2016
+| Host         : ltcranda-Q302LA running 64-bit Ubuntu 15.10
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bus_doubler_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_bus_doubler_0_0 (Srihari:user:bus_doubler:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:29:27 MST 2014
+| Date         : Tue Jan 19 17:39:49 2016
+| Host         : Centaurus running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_bus_doubler_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_bus_doubler_0_0 (Srihari:user:bus_doubler:1.0) from (Rev. 3) to (Rev. 2)
+

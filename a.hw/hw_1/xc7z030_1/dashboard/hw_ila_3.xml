@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="ILA">
+        <Dashboard columnResizable="1" key="ILA" rowResizable="0" title="ILA">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="2" height="659"
+                layout="JideBoxLayout" vgap="6" width="779">
+                <Gadget height="105" key="Trigger Capture Status" width="779"/>
+                <Gadget height="456" key="Basic Trigger Setup" width="779">
+                    <Probe name="vid_io_out_vsync"/>
+                    <Probe name="design_1_i/line_buf_0/in_data[15:0]"/>
+                    <Probe name="design_1_i/line_buf_0/out_data[15:0]"/>
+                    <Probe name="vid_io_out_data[15:0]"/>
+                </Gadget>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>

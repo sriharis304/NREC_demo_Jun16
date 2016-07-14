@@ -1,0 +1,17 @@
+INFO: [Common 17-701] A license check has taken more than 10 seconds to complete. This may indicate that there is a performance issue with one or more license servers listed in XILINXD_LICENSE_FILE or LM_LICENSE_FILE, or that the license servers are just not responding at all. Try setting the FLEXLM_DIAGNOSTICS environment variable to 3 and running Vivado again to get more information.
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Apr 20 14:22:51 2016
+# Process ID: 6727
+# Log file: /home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/syn_no_flatten/design_1_wrapper.vds
+# Journal file: /home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/a.runs/syn_no_flatten/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ltcranda/Documents/CMU/HeadlightResearch/HeadlightMaskingLocal/Headlight_antiglare_wit_arm_srihari/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.2/data/ip'.
+Command: synth_design -top design_1_wrapper -part xc7z030fbg676-1 -flatten_hierarchy none
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z030'

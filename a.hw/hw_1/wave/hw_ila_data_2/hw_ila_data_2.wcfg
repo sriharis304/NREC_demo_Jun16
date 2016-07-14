@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Xilinx/a/a.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="4" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" fp_name="vid_io_out_active_video" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_active_video</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_active_video</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vid_io_out_data" type="array">
+      <obj_property name="ElementShortName">vid_io_out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vid_io_out_hsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_hsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_hsync</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vid_io_out_vsync" type="logic">
+      <obj_property name="ElementShortName">vid_io_out_vsync</obj_property>
+      <obj_property name="ObjectShortName">vid_io_out_vsync</obj_property>
+   </wvobject>
+</wave_config>

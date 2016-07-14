@@ -1,0 +1,37 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 12 03:28:41 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_bram_ctrl_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_axi_bram_ctrl_1_0 (xilinx.com:ip:axi_bram_ctrl:4.0 (Rev. 4)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 12 03:14:40 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z035fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_axi_bram_ctrl_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_axi_bram_ctrl_1_0 (xilinx.com:ip:axi_bram_ctrl:4.0 (Rev. 4)) to current project options.
+

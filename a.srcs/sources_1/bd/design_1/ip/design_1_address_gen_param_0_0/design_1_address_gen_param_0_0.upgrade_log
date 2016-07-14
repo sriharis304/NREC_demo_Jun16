@@ -1,0 +1,173 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 15 16:31:14 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_address_gen_param_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_address_gen_param_0_0 (Srihari:user:address_gen_param:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 15 16:28:33 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_address_gen_param_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_address_gen_param_0_0 (Srihari:user:address_gen_param:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Wed Jun 15 13:27:59 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_address_gen_param_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of design_1_address_gen_param_0_0 (Srihari:user:address_gen_param:1.0 (Rev. 2)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_address_gen_param_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'BLANKING_HEIGHT'
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Jun  3 11:59:59 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_address_gen_param_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the update of design_1_address_gen_param_0_0 (Srihari:user:address_gen_param:1.0 (Rev. 2)) to current project options.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Warnings
+-----------
+
+WARNING: The upgraded user parameter set contained parameters that could not be mapped on to the upgraded IP. Note that parameter names and IDs are case sensitive.
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'design_1_address_gen_param_0_0'. These changes may impact your design.
+
+
+-upgrade has added port 'BLANKING_POSITION'
+-upgrade has added port 'BLANKING_WIDTH'
+
+4. Customization warnings
+-------------------------
+
+WARNING: Parameter 'SIZE' is no longer present on the upgraded IP 'design_1_address_gen_param_0_0', and cannot be set to '40800'
+
+WARNING: Parameter 'LINE_SIZE' is no longer present on the upgraded IP 'design_1_address_gen_param_0_0', and cannot be set to '120'
+
+
+5. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv Srihari:user:address_gen_param:1.0 -user_name design_1_address_gen_param_0_0
+set_property -dict "\
+  CONFIG.START_LINE_FOR_HOMOGRAPHY 19 \
+  CONFIG.HEIGHT 340 \
+  CONFIG.WIDTH 960 \
+  CONFIG.Component_Name design_1_address_gen_param_0_0 " [get_ips design_1_address_gen_param_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 12 03:28:41 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z030fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_address_gen_param_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_address_gen_param_0_0 (Srihari:user:address_gen_param:1.0 (Rev. 2)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Thu May 12 03:14:39 2016
+| Host         : ilim-Lenovo-YOGA-700-14ISK running 64-bit Ubuntu 14.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z035fbg676-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_address_gen_param_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of design_1_address_gen_param_0_0 (Srihari:user:address_gen_param:1.0 (Rev. 2)) to current project options.
+

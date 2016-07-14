@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="syn_no_flatten" LaunchDir="/home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.runs/syn_no_flatten" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="impl_4" LaunchDir="/home/ilim/Documents/HeadlightShit/Headlight_antiglare_wit_arm_srihari/a.runs/impl_4" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="syn_no_flatten"/>
+	</Run>
+</Runs>
+
